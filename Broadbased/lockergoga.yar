@@ -9,6 +9,7 @@ rule lockergoga {
       $ransom_2 = "Your files are encrypted with the strongest military algorithms RSA4096 and AES-256" wide ascii nocase
       $str_1 = "(readme-now" wide ascii nocase
       $mlcrosoft = "Mlcrosoft" wide ascii nocase
+      $mutex_1 = "MX-tgytutrc" wide ascii nocase
       $cert_1 = "16 Australia Road Chickerell" wide ascii nocase
       $cert_2 = {  2E 7C 87 CC 0E 93 4A 52 FE 94 FD 1C B7 CD 34 AF } //  MIKL LIMITED
       $cert_3 = { 3D 25 80 E8 95 26 F7 85 2B 57 06 54 EF D9 A8 BF } // CCOMODO RSA Code Signing CA
