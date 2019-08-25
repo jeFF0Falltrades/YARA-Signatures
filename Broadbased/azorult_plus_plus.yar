@@ -1,3 +1,5 @@
+import "pe"
+
 rule azorult_plus_plus {
 	meta:
 		author = "jeFF0Falltrades"
@@ -14,5 +16,5 @@ rule azorult_plus_plus {
 		$lang_check = { FF 15 44 00 41 00 0F B7 C0 B9 19 04 00 00 66 3B C1 } // call ds:GetUserDefaultLangID; movzx eax, ax; mov ecx, 419h; cmp ax, cx
 
 	condition:
-		$pdb or 5 of them
+		$pdb or 5 of them or pe.imphash() == "e60de0acc6c7bbe3988e8dc00556d7b9"
 }
