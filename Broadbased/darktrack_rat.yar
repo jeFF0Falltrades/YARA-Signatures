@@ -2,7 +2,7 @@ import "pe"
 
 rule darktrack_rat {
 	meta:
-		author = "jeFF0Falltrades"
+        author = "jeFF0Falltrades"
         hash = "1472dd3f96a7127a110918072ace40f7ea7c2d64b95971e447ba3dc0b58f2e6a"
         ref = "https://news.softpedia.com/news/free-darktrack-rat-has-the-potential-of-being-the-best-rat-on-the-market-508179.shtml"
 		
