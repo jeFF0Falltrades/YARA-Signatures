@@ -1,7 +1,8 @@
-rule raycast_unknown {
+rule redline_stealer {
   meta:
     author = "jeFF0Falltrades"
     hash = "6d477b08a0b9c1e8db4ecb921d07b124973f5213639d88fff7df5146adcefc79"
+    description = "This rule matches droppers that appear to be related to samples of RedLine Stealer or a derivation"
 
   strings:
     $str_0 = "RayCastingCSHARP.Properties.Resources.resources" wide ascii
