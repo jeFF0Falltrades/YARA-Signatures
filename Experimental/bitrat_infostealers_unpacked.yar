@@ -1,4 +1,4 @@
-rule bitrat_infostealers_unpacked.yar
+rule bitrat_infostealers_unpacked
 {
     meta:
         author = "jeFF0Falltrades"
