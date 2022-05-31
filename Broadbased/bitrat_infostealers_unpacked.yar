@@ -1,9 +1,9 @@
-rule bitrat_infostealers_unpacked
+rule bitrat_unpacked
 {
     meta:
         author = "jeFF0Falltrades"
         hash = "122cd4f33d1e1b42ce0d959bc35e5d633b029f4869c5510624342b5cc5875c98"
-        description = "Experimental rule to detect unpacked BitRat (and potentially other infostealer) payloads on disk or in memory, looking for a combination of strings and decryption/decoding patterns"
+        description = "Experimental rule to detect unpacked BitRat payloads on disk or in memory, looking for a combination of strings and decryption/decoding patterns"
         reference = "https://krabsonsecurity.com/2020/08/22/bitrat-the-latest-in-copy-pasted-malware-by-incompetent-developers/"
 
     strings:
