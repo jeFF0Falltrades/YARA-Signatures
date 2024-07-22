@@ -6,6 +6,8 @@ rule xworm {
         $str_xworm = "xworm" wide ascii nocase
         $str_xwormmm = "Xwormmm" wide ascii
         $str_xclient = "XClient" wide ascii
+        $str_xlogger = "XLogger" wide ascii
+        $str_xchat = "Xchat" wide ascii
         $str_default_log = "\\Log.tmp" wide ascii
         $str_create_proc = "/create /f /RL HIGHEST /sc minute /mo 1 /t" wide ascii 
         $str_ddos_start = "StartDDos" wide ascii 
@@ -15,5 +17,5 @@ rule xworm {
         $patt_config = { 72 [3] 70 80 [3] 04 }
 
     condition:
-        5 of them and #patt_config >= 7
+        5 of them and #patt_config >= 5
  }
